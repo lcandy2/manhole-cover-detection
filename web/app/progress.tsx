@@ -3,7 +3,11 @@
 
 import { AppProgressBar as ProgressBar } from 'next-nprogress-bar';
 
-const Providers = ({ children }) => {
+interface ProvidersProps {
+  children: React.ReactNode;
+}
+
+const Providers = ({ children }: ProvidersProps) => {
   return (
       <>
         {children}
