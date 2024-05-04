@@ -37,6 +37,7 @@ export default function Chart() {
           `${Intl.NumberFormat('cn').format(number).toString()}个`
         }
         yAxisWidth={60}
+        showAnimation
       />
     </Card>
   );

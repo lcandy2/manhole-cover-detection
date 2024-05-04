@@ -68,6 +68,7 @@ export default function IndexPage() {
                 Intl.NumberFormat('us').format(number).toString()
               }
               className="mt-2"
+              showAnimation
             />
           </Card>
         ))}
