@@ -11,7 +11,7 @@ export default function Toast() {
     <div className="sticky rounded-2xl w-11/12 sm:w-[581px] h-40 sm:h-[80px] p-0.5 z-10 bottom-10 left-0 right-0 mx-auto">
       <div className="rounded-[14px] w-full h-full bg-gray-50 border border-gray-200 flex flex-col sm:flex-row items-center justify-center sm:justify-between space-y-3 sm:space-y-0 px-5">
         <p className="text-black text-[13px] font-mono w-[324px] h-10 flex items-center justify-center p-3">
-          第十五届中国大学生服务外包创新创业大赛参赛作品<br />拯救世界队 - 2406296
+          2024年（第17届）中国大学生计算机设计大赛作品<br />华中赛区 - 湖南农业大学 - 2024033416
         </p>
         <Link
           className="text-white text-[13px] font-mono bg-black hover:bg-gray-700 transition-all rounded-md w-[200px] h-10 flex items-center justify-center whitespace-nowrap"

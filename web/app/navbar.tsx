@@ -50,7 +50,7 @@ export default function Navbar({ user }: { user: any }) {
                       fill="black"
                     />
                   </svg>
-                  <p className='inline-flex items-center text-gray-900 px-1 text-sm font-medium'>市政设施管理系统 - 井盖破损识别</p>
+                  <p className='inline-flex items-center text-gray-900 px-1 text-sm font-medium'>市政设施智慧预警系统 - 井盖破损识别</p>
                 </div>
                 <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
                   {navigation.map((item) => (
