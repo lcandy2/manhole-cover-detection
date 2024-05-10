@@ -1,62 +1,18 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/9113740/201498864-2a900c64-d88f-4ed4-b5cf-770bcb57e1f5.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/9113740/201498152-b171abb8-9225-487a-821c-6ff49ee48579.png">
-  <img alt="Shows all of the tools in the stack for this template, also listed in the README file." src="https://user-images.githubusercontent.com/9113740/201498152-b171abb8-9225-487a-821c-6ff49ee48579.png">
-</picture>
+# Manhole Cover Detection Web / 市政设施智慧预警系统 前端
 
-<div align="center"><strong>Next.js 14 Admin Dashboard Template</strong></div>
-<div align="center">Built with the Next.js App Router</div>
-<br />
-<div align="center">
-<a href="http://admin-dash-template.vercel.sh/">Demo</a>
-<span> · </span>
-<a href="https://vercel.com/templates/next.js/admin-dashboard-tailwind-planetscale-react-nextjs">Clone & Deploy</a>
-<span>
-</div>
+### How to / 如何使用
+This is a node.js project, so you need to have node.js installed on your computer. You can download it from [here](https://nodejs.org/).<br>
+这是一个node.js项目，所以你需要在你的电脑上安装node.js。你可以从[这里](https://nodejs.org/)下载。
 
-## Overview
+After you have installed node.js, you can clone this repository to your computer.<br>
+安装完node.js之后，你可以将这个仓库克隆到你的电脑上。
 
-This is a starter template using the following stack:
+Then, you need to install the dependencies. First, install pnpm by running `npm install -g pnpm`. Then, run `pnpm install` in the project directory.<br>
+然后，你需要安装依赖。首先，通过运行`npm install -g pnpm`来安装pnpm。然后，在项目目录中运行`pnpm install`。
 
-- Framework - [Next.js 14](https://nextjs.org/14)
-- Language - [TypeScript](https://www.typescriptlang.org)
-- Auth - [NextAuth.js](https://next-auth.js.org)
-- Database - [Vercel Postgres](https://vercel.com/postgres)
-- Deployment - [Vercel](https://vercel.com/docs/concepts/next.js/overview)
-- Styling - [Tailwind CSS](https://tailwindcss.com)
-- Components - [Tremor](https://www.tremor.so)
-- Analytics - [Vercel Analytics](https://vercel.com/analytics)
-- Linting - [ESLint](https://eslint.org)
-- Formatting - [Prettier](https://prettier.io)
+Finally, you can run the project by running `pnpm dev` in the project directory.<br>
+最后，你可以通过在项目目录中运行`pnpm dev`来运行项目。
 
-This template uses the new Next.js App Router. This includes support for enhanced layouts, colocation of components, tests, and styles, component-level data fetching, and more.
-
-## Getting Started
-
-During the deployment, Vercel will prompt you to create a new Postgres database. This will add the necessary environment variables to your project.
-
-Inside the Vercel Postgres dashboard, create a table based on the schema defined in this repository.
-
-```
-CREATE TABLE users (
-  id SERIAL PRIMARY KEY,
-  email VARCHAR(255) NOT NULL,
-  name VARCHAR(255),
-  username VARCHAR(255)
-);
-```
-
-Insert a row for testing:
-
-```
-INSERT INTO users (id, email, name, username) VALUES (1, 'me@site.com', 'Me', 'username');
-```
-
-Finally, run the following commands to start the development server:
-
-```
-pnpm install
-pnpm dev
-```
-
-You should now be able to access the application at http://localhost:3000.
+### Tnat's all! / 就这样！
+Thanks for experiencing our project! If you have any questions, please contact us.<br>
+感谢体验我们的项目！如果你有任何问题，请联系我们。
