@@ -24,10 +24,8 @@ This is a Node.js project, so you need to have Node.js installed on your compute
 
 1. **Clone the Repository / 克隆仓库**
    ```
-   git clone <repository_url>
+   git clone https://github.com/lcandy2/manhole-cover-detection.git
    ```
-   Replace `<repository_url>` with the actual URL of the repository.
-   将`<repository_url>`替换为实际的仓库URL。
 
 2. **Install Dependencies / 安装依赖**
    First, install pnpm by running:
