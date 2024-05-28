@@ -6,7 +6,7 @@ This project is designed for the intelligent detection of municipal facilities, 
 该项目旨在市政设施的智能检测，特别是检查井盖。它包含一个使用Node.js构建的前端和一个使用预训练模型文件(`best.pt`)的检测模型。该系统为识别和监控城市环境中的井盖提供了综合解决方案。
 
 ## Preview / 预览
-![Dashboard 仪表盘](https://github.com/lcandy2/manhole-cover-detection/assets/45784494/a8d5af8e-da78-4504-9b53-27f19f0ecfb6)、
+![Dashboard 仪表盘](https://github.com/lcandy2/manhole-cover-detection/assets/45784494/a8d5af8e-da78-4504-9b53-27f19f0ecfb6)
 
 ![Submit Test 提交测试](https://github.com/lcandy2/manhole-cover-detection/assets/45784494/0706c446-1918-4fc4-9aec-92d604404553)
 
